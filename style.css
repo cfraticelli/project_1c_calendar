@@ -4,6 +4,9 @@ body {
 h1 {
     text-align: center;
 }
+.calendar {
+    padding: 1.5rem;
+}
 .dow,
 .date{
     display: grid;
@@ -11,6 +14,10 @@ h1 {
 }
 .month {
     text-align: center;
+}
+.dow {
+    text-align: center;
+    margin: 2.5em;
 }
 
 .date div:first-of-type{
